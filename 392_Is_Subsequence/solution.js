@@ -31,7 +31,7 @@ Follow up: Suppose there are lots of incoming s, say s1, s2, ..., sk where k >= 
 var isSubsequence = function (s, t) {
   let counter = 0;
   for (let i = 0; i < t.length; i++) {
-    //construct a subsequence from t
+    //construct a subsequence from t, and count if the subsequence is the same as s
 
     if (s[counter] === t[i]) {
       counter++;

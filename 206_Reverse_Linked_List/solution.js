@@ -29,7 +29,7 @@ Output: [] */
  * @return {ListNode}
  */
 var reverseList = function (head) {
-  let myList = head;
+  let myList = head; //make a copy of the list
   let temp = null;
   let prev = null;
 

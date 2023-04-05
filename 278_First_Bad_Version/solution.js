@@ -35,6 +35,7 @@ Constraints:
  * };
  */
 
+//USE BINARY SEARCH
 /**
  * @param {function} isBadVersion()
  * @return {function}

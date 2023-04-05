@@ -60,3 +60,5 @@ var searchInsert = function (nums, target) {
 
   return left;
 };
+
+//be sure to think which to return

@@ -29,7 +29,7 @@ var longestPalindrome = function (s) {
   let length = s.length;
   let maxLength = 0;
   let set = new Set();
-
+  //cross if two available
   for (let i = 0; i < length; i++) {
     if (set.has(s[i])) {
       maxLength += 2;

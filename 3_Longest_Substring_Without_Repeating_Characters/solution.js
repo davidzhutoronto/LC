@@ -42,6 +42,7 @@ var lengthOfLongestSubstring = function (s) {
     return Max;
   }
 
+  //calculate length and compare Max every time
   for (let i = 0; i < length; i++) {
     while (mySet.has(s[i])) {
       mySet.delete(s[left]);
